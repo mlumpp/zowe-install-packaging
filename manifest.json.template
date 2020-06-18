@@ -12,8 +12,9 @@
   },
   "binaryDependencies": {
     "org.zowe.zlux.zlux-core": {
-      "version": "~1.12.0-STAGING",
-      "artifact": "*.pax"
+      "version": "1.13.0-S-242-S-S-S-S",
+      "repository": "libs-snapshot-local",
+      "artifact": "zlux-core-1.13.0-20200618.213034.pax"
     },
     "org.zowe.zlux.zss-auth": {
       "version": "~1.12.0-STAGING",
@@ -64,7 +65,8 @@
       "explode": "true"
     },
     "org.zowe.explorer-jes": {
-      "version": "~1.0.0-STAGING"
+      "version": "~1.0.1-SERVER-COMPRESSED",
+      "explode": "true"
     },
     "org.zowe.explorer-mvs": {
       "version": "~1.0.0-STAGING"
